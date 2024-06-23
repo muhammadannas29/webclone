@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color:#fb6953 white;
+    scrollbar-width: thin;
+}
+.first-page{
+    background-image: url(bg-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo-pic{
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+.nav-links{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+a:hover{
+    color: #fb6953;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: black;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.regular{
+    background-color: transparent;
+}
+.sign-in{
+    transition: 1s;
+}
+.sign-in:hover{
+    color: #fb6953;
+}
+.custom-btn{
+    background-color: #fb6953;
+    color: white;
+    transition: 1s;
+    box-shadow: 5px 5px 4px rgba(243, 125, 21, 0.6);
+}
+.custom-btn:hover{
+    box-shadow: 10px 10px 8px rgba(243, 125, 21, 0.6);
+    scale: 1.05;
+}
+.main-content{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.box-container{
+    border: 2px solid black;
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 4px rgba(31, 12, 12, 0.6);
+    background-image: url(why-us-bg.png);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 2rem;
+}
+.select-type{
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+#type{
+    padding: 0.7rem 4rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    font-size: 1.2rem;
+}
+select{
+    width: 315px;
+    text-align: center;
+}
+.car-pic{
+    width: 100%;
+}
+.short-heading{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+}
+.main-heading{
+    font-family: 'Roboto';
+    font-size: 3rem;
+    font-weight: bold;
+}
+p{
+    font-family: 'Poppins';
+}
+.btn-box{
+    padding-top: 2.2rem;
+    display: flex;
+    gap: 1rem;
+}
+.learn{
+    background-color: black;
+    color: white;
+}
+span{
+    color:#fb6953;
+}
+.second-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 1rem;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    max-width: 80vw;
+    margin-top: 3rem;
+}
+.card{
+    border: #fb6953;
+}
+.card h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto';
+    font-size: 2.8rem;
+}
+h3{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+.content-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding-bottom: 3rem;
+}
+.third-page{
+    padding-bottom: 5rem;
+}
+
+.car-selection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.car-names{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.selected{
+    background-color: #fb6953;
+    color: white;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+}
+table thead th{
+    background-color: #fb6953;
+    color: white;
+    padding: 1rem 1rem;    
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+table tbody td{
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: center;
+}
+table tbody button{
+    width: 100%;
+}
+.btn-row{
+    border: none;
+}
+
+.banner{
+    background-color: rgb(50, 48, 48);
+    color: white;
+    padding: 3rem 5rem;
+}
+.banner h2{
+    margin-bottom: 1.5rem;
+}
+.all-cars{
+    width: 100%;
+}
+.why-us{
+    display: flex;
+    padding: 5rem 4rem;
+    background-image: url(why-us-bg.png);
+    gap: 2rem;
+}
+.why-us-card{
+    margin: 2.5rem 2rem;
+    display: flex;
+    gap: 0.5rem;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+}
+.text-container-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    max-width: 50%;
+    gap: 1rem;
+}
+.review{
+    background-color: whitesmoke;
+    padding: 5rem 1rem;
+}
+.reviews{
+    display: flex;
+    gap:2rem;
+    margin: 4rem;
+}
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    max-width: 60%;
+    margin: auto;
+}
+.review-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3.5rem;
+    gap: 2rem;
+}
+.review-content{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.review-p{
+    font-size: 1.5rem;
+}
+.review-img{
+    width: 70px;
+    border-radius: 50%;
+}
+.faq{
+    padding: 5rem 1rem;
+}
+.question{
+    max-width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+}
+.question h3{
+    color: black;
+    padding: 1rem;
+     padding-left: 3rem;
+
+}
+.question p{
+    display: none;
+}
+p.active{
+    display: block;
+}
+.ques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ques-active{
+    background-color: #fb6953;
+    border-radius: 5px;
+}
+.about-page{
+    background-image: url(head-bg.png);
+    max-height: 60vh;
+    min-height: 60vh;
+    background-repeat: no-repeat;
+}
+.about-page::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;  
+}
+.about-page h2{
+    height: 100%;
+}
+header nav{
+    position: relative;
+    z-index: 1;
+}
+.main-head{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+@media(max-width:768px) {
+    *{
+        text-align: center;
+        padding: 0;
+    }
+    .hamburger{
+        display: block;
+    }    
+    /* .bar:nth-child(2){
+        opacity: 0;
+    }
+    .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    } */
+    .nav-links{
+        position: fixed;
+        left: -100%;
+        top: 80px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+        width: 100%;
+    }
+    .nav-item{
+        color: #fb6953;
+        margin: 16px 0;
+
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .container-img{
+        display: none;
+    }
+    .container{
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-page{
+        background-image: none;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    button{
+        padding: 15px 20px;
+    }
+    .car-selection{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    #car-pic{
+        width: 100vw;
+    }
+    .why-us{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner h2{
+        font-size: 2rem;
+    }
+    .banner h3{
+        font-size: 1.1rem;
+    }
+    .text-container-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .why-us-card{
+        flex-direction: column;
+    }
+}
